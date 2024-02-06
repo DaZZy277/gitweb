@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Chat App</title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div id="chat-container">
+    <div id="chat-box">
+      <div class="message-box">
+        <div class="message received">
+          <img class="avatar" src="furina.jpg" alt="Avatar">
+          <div class="message-content">
+            <p>Hello!</p>
+            <span class="time">10:00 AM</span>
+          </div>
+        </div>
+        <div class="message sent">
+          <div class="message-content">
+            <p>Hi there!</p>
+            <span class="time">10:01 AM</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <input type="text" id="message-input" placeholder="Type a message...">
+      <button onclick="sendMessage()">Send</button>
+    </footer>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
